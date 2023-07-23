@@ -37,6 +37,7 @@
           font-weight: 700;
           color: blue;
           margin: 10px;
+          -webkit-text-stroke: 0.7px white;
           text-shadow: 5px 5px 10px navy;
         "
       >
@@ -67,13 +68,15 @@
     </div>
 
     <!--Second section-->
-    <div style="align-content: center">
-      <img
-        src="images/me.jpg"
-        style="height: 600px; margin: 100px; float: left"
-        alt="A pretend invisible person wearing a hat, glasses, and coat."
-      />
-      <div style="height: 600px; margin: 100px">
+    <div>
+      <div>
+        <img
+          src="images/me.jpg"
+          style="height: 600px; margin: 100px; float: left"
+          alt="A pretend invisible person wearing a hat, glasses, and coat."
+        />
+      </div>
+      <div>
         <h1>Stonebreakers</h1>
         <p style="font-size: 20px; position: center">
           I had a dream. Like there is ahead<br />
@@ -148,7 +151,32 @@
   </body>
 
   <!--Footer-->
-  <footer style="background-color: #f7c201">
-    <h1>Made with 🤍 at DigitalOcean</h1>
+  <footer>
+    <h1
+      style="
+        font-size: 40px;
+        text-align: center;
+        background-image: linear-gradient(
+          #f7c201 50%,
+          rgb(27, 145, 248) 10%,
+          blue
+        );
+        color: #f7c201;
+        -webkit-text-stroke: 0.35px blue;
+        text-shadow: 0 0 7px black;
+      "
+    >
+      Made with
+      <img
+        src="images/smile_love_ukraine.png"
+        style="
+          height: 50px;
+          border-radius: 50%;
+          vertical-align: middle;
+          box-shadow: 0px 0px 7px black;
+        "
+      />
+      by Valeriy Yuriy - 2023
+    </h1>
   </footer>
 </html>
