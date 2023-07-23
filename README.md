@@ -11,5 +11,10 @@ of code and the beauty of poetry to craft a meaningful online
 experience. Together, let's embrace the art of web development and
 celebrate the fusion of creativity and technology.
 
+## Main page - screenshot
+
 <img src="images/Screenshot_1.png" alt="Main Page" width=100%>
+
+## Second page - screenshot
+
 <img src="images/Screenshot_2.png" alt="Second Page" width=100%>
